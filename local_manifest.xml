@@ -9,12 +9,12 @@
 
 <!-- Trees -->
 
-  <project path="device/xiaomi/santoni"                     name="device_xiaomi_santoni" remote="ps"  revision="coltos-13"  clone-depth="1" />
-  <project path="vendor/xiaomi/santoni"                     name="vendor/vendor_xiaomi_santoni" remote="santoni"  revision="13"                   clone-depth="1" />
-  <project path="kernel/xiaomi/msm8937"                     name="kernel/kernel_xiaomi_msm8937" remote="santoni"  revision="13"                   clone-depth="1" /> 
- 
+  <project path="device/xiaomi/santoni" name="device/device_xiaomi_santoni" remote="ps" revision="crdroid-11-dev" />
+  <project path="vendor/xiaomi" name="vendor/vendor_xiaomi_santoni" remote="santoni" revision="11.0" clone-depth="1" />
+  <project path="kernel/xiaomi/msm8937" name="kernel/kernel_xiaomi_msm8937.git" remote="santoni" revision="11-ksu" />
+
 <!-- Clang -->
 
-  <project path="prebuilts/clang/host/linux-x86/zyc_clang"  name="proton-clang"                 remote="om"       revision="master"               clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/custom_clang" name="proton-clang" remote="om" revision="master" clone-depth="1" />
 
 </manifest>
