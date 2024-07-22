@@ -9,9 +9,9 @@
 
 <!-- Trees -->
 
-  <project path="device/xiaomi/santoni" name="device/device_xiaomi_santoni" remote="ps" revision="crdroid-11-dev" />
+  <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="ps" revision="crdroid-11-dev" />
   <project path="vendor/xiaomi" name="vendor/vendor_xiaomi_santoni" remote="santoni" revision="11.0" clone-depth="1" />
-  <project path="kernel/xiaomi/msm8937" name="kernel/kernel_xiaomi_msm8937.git" remote="santoni" revision="11-ksu" />
+  <project path="kernel/xiaomi/msm8937" name="kernel/kernel_xiaomi_msm8937.git" remote="santoni" revision="13-ksu" />
 
 <!-- Clang -->
 
