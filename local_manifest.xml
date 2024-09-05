@@ -5,10 +5,11 @@
 <remote name="om"       fetch="https://github.com/omansh-krishn"  />
 <remote name="santoni"  fetch="https://gitlab.com/androidsantoni" />
 <remote name="clang"    fetch="https://gitlab.com/clangsantoni"   />
-
+<remote name="pr"       fetch="https://github.com/pratiksharma269"  />
+  
 <!-- Trees -->
 
-  <project path="device/xiaomi/santoni"                     name="device/device_xiaomi_santoni" remote="santoni"  revision="alpha-14-dev" />
+  <project path="device/xiaomi/santoni"                     name="device_xiaomi_santoni" remote="pr"  revision="alpha-14-dev" />
   <project path="vendor/xiaomi/santoni"                     name="vendor/vendor_xiaomi_santoni" remote="santoni"  revision="14"           />
   <project path="kernel/xiaomi/msm8937"                     name="kernel/kernel_xiaomi_msm8937" remote="santoni"  revision="13"           />
 
