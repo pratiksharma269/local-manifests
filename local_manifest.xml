@@ -9,7 +9,7 @@
   
 <!-- Trees -->
 
-  <project path="device/xiaomi/santoni"                     name="device_xiaomi_santoni" remote="pr"  revision="alpha-14-dev" />
+  <project path="device/xiaomi/santoni"                     name="device_xiaomi_santoni" remote="pr"  revision="vos-14" />
   <project path="vendor/xiaomi/santoni"                     name="vendor/vendor_xiaomi_santoni" remote="santoni"  revision="14"           />
   <project path="kernel/xiaomi/msm8937"                     name="kernel/kernel_xiaomi_msm8937" remote="santoni"  revision="13"           />
 
