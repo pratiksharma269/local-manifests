@@ -11,7 +11,7 @@
 
   <project path="device/xiaomi/santoni"                     name="device_xiaomi_santoni" remote="pr"  revision="rr-10-dev" />
   <project path="vendor/xiaomi"                             name="vendor/vendor_xiaomi_santoni" remote="santoni"  revision="10.0" />
-  <project path="kernel/xiaomi/msm8937"                     name="kernel/kernel_xiaomi_msm8937" remote="santoni"  revision="13" />
+  <project path="kernel/xiaomi/msm8937"                     name="kernel/kernel_xiaomi_msm8937" remote="santoni"  revision="10" />
 
 <!-- Clang -->
 
